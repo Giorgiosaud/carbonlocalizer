@@ -1,0 +1,20 @@
+{
+    "name": "jorgelsaud/carbonlocalizer",
+    "description": "Cambiar idioma a fechas Carbon en idioma humano",
+    "require": {
+        "nesbot/carbon": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Saud",
+            "email": "jorgelsaud@gmail.com"
+        }
+    ],
+    "autoload": {
+    "psr-4": {
+      "Zonapro\\Carbonlocalizer\\":"src/"
+    }
+  },
+    "minimum-stability": "dev"
+}

@@ -2,7 +2,6 @@
     "name": "jorgelsaud/carbonlocalizer",
     "description": "Cambiar idioma a fechas Carbon en idioma humano",
     "require": {
-        "nesbot/carbon": "dev-master"
     },
     "license": "MIT",
     "authors": [

@@ -13,6 +13,8 @@ class CarbonlocalizerServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
+        $this->loadTranslationsFrom(__DIR__.'/../Translations', 'carbonlocale');
+
         App::bind('carbonlocalizer', function()
         {
             return new Carbonlocalizer;

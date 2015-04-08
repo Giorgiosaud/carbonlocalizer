@@ -79,9 +79,10 @@ class Carbonlocalizer extends Carbon {
 
         if ($isFuture)
         {
+            return trans_choice("$txt.past.$unit", $delta, compact('delta'));
+
             return Lang::choice("$txt.past.$unit", $delta, compact('delta'));
         }
-
-        return Lang::choice("$txt.future.$unit", $delta, compact('delta'));
+        return trans_choice("$txt.future.$unit", $delta, compact('delta'));
     }
 }

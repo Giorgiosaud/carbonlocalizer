@@ -1,4 +1,4 @@
-<?php namespace jorgelsaud\Carbonlocalizer\src\Provider;
+<?php namespace jorgelsaud\Carbonlocalizer\Provider;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;

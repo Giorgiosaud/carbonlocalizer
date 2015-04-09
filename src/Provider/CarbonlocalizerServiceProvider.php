@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
-use Zonapro\Carbonlocalizer\src\Carbonlocalizer;
+use Zonapro\Carbonlocalizer\Carbonlocalizer;
 
 class CarbonlocalizerServiceProvider extends ServiceProvider {
 

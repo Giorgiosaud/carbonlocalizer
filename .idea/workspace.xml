@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94243734-650d-4eec-a53e-2fd759109a42" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Translations/en/carbonlocale.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Translations/es/carbonlocale.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Carbonlocalizer.php" afterPath="$PROJECT_DIR$/src/Carbonlocalizer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Provider/CarbonlocalizerServiceProvider.php" afterPath="$PROJECT_DIR$/src/Provider/CarbonlocalizerServiceProvider.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="carbonlocale.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Translations/en/carbonlocale.php">
+      <file leaf-file-name="CarbonlocalizerServiceProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Provider/CarbonlocalizerServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46911958" vertical-offset="0" max-vertical-offset="761">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.110381074" vertical-offset="0" max-vertical-offset="840">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -50,9 +47,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/Facades/Carbonlocalizer.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Provider/CarbonlocalizerServiceProvider.php" />
         <option value="$PROJECT_DIR$/src/Carbonlocalizer.php" />
         <option value="$PROJECT_DIR$/src/Translations/en/carbonlocale.php" />
+        <option value="$PROJECT_DIR$/src/Provider/CarbonlocalizerServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -88,6 +85,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,7 +196,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,10 +227,16 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -295,13 +298,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Translations/en/carbonlocale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="651">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <marker date="1428537442000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428537442000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428537442000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Facades/Carbonlocalizer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
           <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding>
-            <marker date="1428535541000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -325,11 +338,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="785">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1426043400000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426043400000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1426043400000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -337,26 +346,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="761">
           <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding>
-            <marker date="1428535541000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Provider/CarbonlocalizerServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3587385" vertical-offset="0" max-vertical-offset="798">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <marker date="1428536388000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1428536388000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428536388000" expanded="true" signature="-1:-1" placeholder=" Bootstrap the application services. ..." />
-            <marker date="1428536388000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428536388000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428536388000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428536388000" expanded="true" signature="-1:-1" placeholder=" Register the application services. ..." />
-            <marker date="1428536388000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -364,19 +354,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.1800263" vertical-offset="0" max-vertical-offset="1827">
           <caret line="85" column="75" selection-start-line="85" selection-start-column="75" selection-end-line="85" selection-end-column="75" />
-          <folding>
-            <marker date="1428537068000" expanded="false" signature="-1:-1" placeholder=" Created by jorgelsaud. ..." />
-            <marker date="1428537068000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1428537068000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428537068000" expanded="true" signature="-1:-1" placeholder=" Get the difference in a human readable format. ..." />
-            <marker date="1428537068000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428537068000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428537068000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428537068000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428537068000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428537068000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428537068000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -384,6 +362,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46911958" vertical-offset="0" max-vertical-offset="761">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <marker date="1428537442000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428537442000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428537442000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Provider/CarbonlocalizerServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.110381074" vertical-offset="0" max-vertical-offset="840">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding />
         </state>
       </provider>

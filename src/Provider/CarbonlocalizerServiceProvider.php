@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
-use Zonapro\Carbonlocalizer\Carbonlocalizer;
+use jorgelsaud\Carbonlocalizer\Carbonlocalizer;
 
 class CarbonlocalizerServiceProvider extends ServiceProvider {
 
@@ -17,7 +17,7 @@ class CarbonlocalizerServiceProvider extends ServiceProvider {
 
         App::bind('carbonlocalizer', function()
         {
-            return new Carbonlocalizer;
+            return new Carbonlocalizer();
         });
 	}
 

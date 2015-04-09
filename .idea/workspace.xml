@@ -30,9 +30,11 @@
       <file leaf-file-name="CarbonlocalizerServiceProvider.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Provider/CarbonlocalizerServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.110381074" vertical-offset="0" max-vertical-offset="840">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-              <folding />
+            <state vertical-scroll-proportion="0.5243101" vertical-offset="0" max-vertical-offset="840">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding>
+                <element signature="e#54#89#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -372,9 +374,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Provider/CarbonlocalizerServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.110381074" vertical-offset="0" max-vertical-offset="840">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
+        <state vertical-scroll-proportion="0.5243101" vertical-offset="0" max-vertical-offset="840">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#54#89#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

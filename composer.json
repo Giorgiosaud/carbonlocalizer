@@ -1,5 +1,5 @@
 {
-    "name": "jorgelsaud/carbonlocalizer",
+    "name": "giorgiosaud/carbonlocalizer",
     "description": "Cambiar idioma a fechas Carbon en idioma humano",
     "require": {
       "laravel/framework": "~5.0"
@@ -13,7 +13,17 @@
     ],
     "autoload": {
     "psr-4": {
-      "jorgelsaud\\Carbonlocalizer\\":"src"
+      "Giorgiosaud\\Carbonlocalizer\\":"src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Giorgiosaud\\Carbonlocalizer\\Provider\\CarbonlocalizerServiceProvider"
+      ],
+      "aliases":{
+          "CarbonLoc":"Giorgiosaud\\Carbonlocalizer\\Facades\\Carbonlocalizer"
+      }
     }
   },
     "minimum-stability": "dev"

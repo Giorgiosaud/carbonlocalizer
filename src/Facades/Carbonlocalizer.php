@@ -1,4 +1,4 @@
-<?php namespace jorgelsaud\Carbonlocalizer\Facades;
+<?php namespace Giorgiosaud\Carbonlocalizer\Facades;
 use Illuminate\Support\Facades\Facade;
 
 class Carbonlocalizer extends Facade{

@@ -4,7 +4,7 @@
  * Date: 9/3/15
  * Time: 10:07
  */
-namespace jorgelsaud\Carbonlocalizer;
+namespace Giorgiosaud\Carbonlocalizer;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Lang;

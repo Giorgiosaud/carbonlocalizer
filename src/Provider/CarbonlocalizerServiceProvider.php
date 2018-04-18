@@ -1,8 +1,8 @@
-<?php namespace jorgelsaud\Carbonlocalizer\Provider;
+<?php namespace Giorgiosaud\Carbonlocalizer\Provider;
 
+use Giorgiosaud\Carbonlocalizer\Carbonlocalizer;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
-use jorgelsaud\Carbonlocalizer\Carbonlocalizer;
 
 class CarbonlocalizerServiceProvider extends ServiceProvider {
 
